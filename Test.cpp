@@ -5,9 +5,17 @@
 
 int main()
 {
-    
+    int num1;
+    int num2;
+    int result = num1 + num2;
     std::cout << "Hello World!\n"; //printf("Hello World!);
+    std::cin >> num1;
+    std::cin >> num2;
+    std::cout << " 합 : " << num1 + num2 << std::end;
+    return 0;
+
     
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
